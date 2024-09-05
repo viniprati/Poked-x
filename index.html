@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <select id="pokemonSelect">
+                <option value="">Escolha um Pokémon</option>
+                <option value="pikachu">Pikachu</option>
+                <option value="bulbasaur">Bulbasaur</option>
+                <option value="charmander">Charmander</option>
+                <option value="squirtle">Squirtle</option>
+                <option value="jigglypuff">Jigglypuff</option>
+                <option value="meowth">Meowth</option>
+            </select>
+            <input type="text" id="search" placeholder="Digite o nome ou número do Pokémon">
+            <button id="searchBtn">Buscar</button>
+        </div>
+        <div id="pokemonDetails" class="pokemon-details"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
