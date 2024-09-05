@@ -13,14 +13,6 @@ PokeAPI: API pública para obter dados sobre Pokémons.
 Como Usar
 Clone o Repositório:
 
-bash
-Copiar código
-git clone https://github.com/seu-usuario/pokedex.git
-Navegue até o Diretório do Projeto:
-
-bash
-Copiar código
-cd pokedex
 Abra o Arquivo HTML:
 
 Clique duas vezes no arquivo index.html para abrir no navegador.
